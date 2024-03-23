@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Migha Medium';
+  src: url('../assets/fonts/Migha-Medium.otf') format('opentype');
+}
+
+* {
+  font-family: 'SF UI Display', sans-serif;
+}
+
+
+
+/* Adicione a regra para o elemento h1 */
+.get-a-goodpush {
+  font-family: 'Migha Medium', sans-serif;
+}

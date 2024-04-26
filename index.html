@@ -9,27 +9,46 @@
   <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-  <div class="h-lvh border bg-[#080808]">
-    <nav class="md:fixed md:top-0 w-full border-b-2 border-[#2B2B2B] bg-[#080808]">
-      <div class="h-28 px-6 sm:px-12 2xl:px-24 flex justify-start md:justify-between">
+  <div class="border h-lvh bg-[#080808]">
+    <nav class="border-b-2 w-full border-[#2B2B2B] bg-[#080808] md:fixed md:top-0">
+      <div class="flex justify-between h-28 px-6 sm:px-12 lg:h-16 2xl:px-24">
         <div class="flex items-center">
-          <img class="h-8 md:w-auto md:h-auto" src="./assets/images/gp-logo.png" alt="GOOD PUSH LOGO">
+          <img class="h-8 md:w-auto lg:h-8" src="./assets/images/gp-logo.png" alt="GOOD PUSH LOGO">
         </div>
-        <div class="md:flex items-center space-x-8 lg:space-x-10 hidden"> <!-- <div class="hidden sm:ml-6 sm:block"></div -->
-            <a href="#" class="text-[#FFFFFF] hover:text-[#E22231] md:text-base lg:text-lg font-light leading-none tracking-widest">SERVICES</a>
-            <a href="#" class="text-[#FFFFFF] hover:text-[#E22231] md:text-base lg:text-lg font-light leading-none tracking-widest">WORK</a>
-            <a href="#" class="text-[#FFFFFF] hover:text-[#E22231] md:text-base lg:text-lg font-light leading-none tracking-widest">ABOUT</a>
-            <a href="#" class="text-[#FFFFFF] hover:text-[#E22231] md:text-base lg:text-lg font-bold leading-none tracking-widest">LET'S DISCUSS</a>
+        <div class="flex items-center md:hidden">
+          <button type="button">
+            <img src="./assets/images/more.png" alt="menu-bar">
+          </button>
+        </div>
+        <div class="hidden space-x-8 md:flex md:items-center lg:space-x-5 xl:space-x-10">
+            <a href="#" class="font-normal leading-none tracking-widest uppercase text-[#FFFFFF] hover:text-[#E22231] md:text-base xl:text-xl">
+              SERVICES
+            </a>
+            <a href="#" class="font-normal leading-none tracking-widest uppercase text-[#FFFFFF] hover:text-[#E22231] md:text-base xl:text-xl">
+              WORK
+            </a>
+            <a href="#" class="font-normal leading-none tracking-widest uppercase text-[#FFFFFF] hover:text-[#E22231] md:text-base xl:text-xl">
+              ABOUT
+            </a>
+            <a href="#" class="font-bold leading-none tracking-widest uppercase text-[#E22231] hover:text-[#FFFFFF] md:text-base xl:text-xl">
+              LET'S DISCUSS
+            </a>
         </div>
       </div>
     </nav>
-    <section class="w-full md:h-full px-6 sm:px-12 2xl:px-24 py-24 md:mt-12 flex flex-col justify-center items-start md:items-center border-b-2 border-[#2B2B2B]">
-      <p class="text-[#FFFFFF] text-6xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-thin leading-none">DON'T JUST EXIST ONLINE,</p>
-      <p class="mt-6 2xl:mt-12 mb-16 lg:mb-20 xl:mb-24 2xl:mb-32 text-[#FFFFFF] text-7xl lg:text-8xl xl:text-9xl 2xl:text-[10rem] font-normal leading-none">THRIVE ONLINE.</p>
-      <h1 class="get-a-goodpush text-[#FFFFFF] text-4xl lg:text-5xl lg:text-6xl 2xl:text-7xl font-normal leading-none">GET A <span class="get-a-goodpush text-[#E22231]">GOODPUSH</span></h1>
+    <section class="flex flex-col justify-center items-start px-6 py-24 w-full border-b-2 border-[#2B2B2B] sm:px-12 md:h-full md:items-center md:mt-12 2xl:px-24">
+      <p class="font-thin leading-none text-6xl text-[#FFFFFF] md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
+        DON'T JUST EXIST ONLINE,
+      </p>
+      <p class="font-normal leading-none mt-6 mb-16 text-7xl text-[#FFFFFF] lg:mb-20 lg:text-8xl xl:mb-24 xl:text-9xl 2xl:mt-12 2xl:mb-36 2xl:text-[10rem]">
+        THRIVE ONLINE.
+      </p>
+      <h1 class="get-a-goodpush font-normal leading-none text-4xl text-[#FFFFFF] md:text-5xl lg:text-6xl 2xl:text-7xl">
+        GET A <span class="get-a-goodpush text-[#E22231]">GOODPUSH</span>
+      </h1>
     </section>
   </div>
-  <div class="h-lvh bg-slate-600 border border-indigo-600"></div>
+  <div class="h-lvh border border-indigo-600 bg-slate-600"></div>
   <script src="./assets/script.js"></script>
 </body>
 </html>
